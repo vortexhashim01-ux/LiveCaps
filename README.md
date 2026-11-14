@@ -22,3 +22,15 @@ Skeleton visualization using connected landmarks.
 
 Tracking of body movements.
 
+2. Hand Tracking
+
+Detection of hand landmarks.
+
+Finger position tracking.
+
+Recognition of hand gestures.
+
+Real-time hand movement visualization.
+
+
+
