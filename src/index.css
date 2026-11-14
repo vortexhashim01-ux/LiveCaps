@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/*
+  WHY this custom variant: Tailwind v4 follows the OS theme by default.
+  Moments also has a manual theme switch, which works by adding/removing
+  the `dark` class on <html>. This line makes every `dark:` utility
+  respond to that class instead of only to the OS setting.
+*/
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html {
+    /* Lets the browser draw native controls (scrollbars, inputs) in the right theme. */
+    color-scheme: light;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* A visible, consistent focus ring for keyboard users on every control. */
+  :focus-visible {
+    outline: 2px solid #10b981;
+    outline-offset: 2px;
+  }
+}
