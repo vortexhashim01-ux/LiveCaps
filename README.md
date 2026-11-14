@@ -32,5 +32,15 @@ Recognition of hand gestures.
 
 Real-time hand movement visualization.
 
+3. Face Tracking
+
+Facial landmark detection.
+
+Face position tracking.
+
+Head orientation estimation.
+
+Real-time facial landmark visualization.
+
 
 
