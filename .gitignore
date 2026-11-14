@@ -27,3 +27,4 @@ npm-debug.log*
 #API's secure
 .env
 .env.example
+instructions.md
