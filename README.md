@@ -42,5 +42,13 @@ Head orientation estimation.
 
 Real-time facial landmark visualization.
 
+4. Advanced Movement Detection
 
+Human movement recognition.
+
+Joint angle calculations.
+
+Gesture recognition.
+
+Movement analysis and tracking.
 
