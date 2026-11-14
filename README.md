@@ -10,5 +10,15 @@ Traditional human detection systems primarily identify a person using rectangula
 
 Using computer vision technologies, the application detects body joints, hand landmarks, and facial landmarks, enabling more advanced human movement analysis.
 
+# ✨ Key Features
 
+1. Full Body Pose Tracking
+
+Real-time human pose estimation.
+
+Detection of body joints and landmarks.
+
+Skeleton visualization using connected landmarks.
+
+Tracking of body movements.
 
